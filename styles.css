@@ -326,3 +326,6 @@
       text-align: left;
       white-space: normal;
   }
+ .nav2 a {
+     color: gray;
+ }
