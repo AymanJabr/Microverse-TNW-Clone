@@ -11,7 +11,7 @@
 
 .utility-section {
   display: grid;
-  margin-right: 15vw;
+  margin-right: 10vw;
   margin-left: 15vw;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -21,7 +21,7 @@
     "utility4 utility5 utility6"
     "utility7 utility8 utility9";
   column-gap: 20px;
-  row-gap: 10px;
+  row-gap: 100px;
 }
 
 .utility1 {
@@ -91,7 +91,10 @@
 }
 
 .utility-latest{
-    background-color: rgba(251, 181, 116, 0.421)
+    background-color: rgba(251, 181, 116, 0.421);
+    display: flex;
+    flex: 4fr 1fr;
+    color: #f42;
 
 }
 
@@ -99,20 +102,52 @@
 
 }
 
-.utility-LT{
+.utility-latest-container{
+    display: flex;
+    flex: 4fr 1fr;
+    flex-direction: column;
+    padding: 10px;
+    color: #f42;
+}
 
+.utility-LT{
+    color: #f42;
+
+
+}
+
+.utility-LT-link{
+    text-decoration: none;
 }
 
 .utility-latest-image{
     float: right;
+    width: 100px;
+    object-fit: cover;    
 
+}
+
+.utility-ul{
+    color: #f42;
+    list-style-position: inside;
+    margin-top: 10px;
+}
+
+.utility-ul-li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.utility-ul-links{
+    text-decoration: none;
+    color: #666;
 }
 
 .latest-deals-section {
   display: flex;
   flex-direction: column;
   flex: 1fr 5fr;
-  margin-right: 15vw;
+  margin-right: 10vw;
   margin-left: 15vw;
   margin-bottom: 70px;
 }
@@ -325,4 +360,11 @@
       padding: 12px 11px;
       text-align: left;
       white-space: normal;
+  }
+
+
+  .utility-ul>hr{
+      color: #ccc;
+  border: 0.3px solid #ccc;
+  border-radius: 5px;
   }
