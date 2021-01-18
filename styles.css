@@ -1,3 +1,71 @@
-main{
-    lakjsdf ;
-}
+.nav1 {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav1 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .nav1 a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+
+  .nav1 .menu_right {
+    position:absolute;
+    left: 40cm;
+  }  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 11px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color:  #333;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .nav2 {
+      overflow: hidden;
+      padding: 12px 11px;
+      text-align: left;
+      white-space: normal;
+  }
