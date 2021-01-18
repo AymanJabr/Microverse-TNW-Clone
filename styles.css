@@ -1,3 +1,91 @@
-main{
-    lakjsdf ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer1{
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-icons-buttons{
+    background-color: #444;
+    border-radius: 50%;
+    padding: 10px;
+    border: 0px solid black;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.footer-icons-images{
+    width: 14px;
+    height: 14px;
+    vertical-align: -3px;
+}
+
+.footer-menus{
+    color: #bbb;
+    display: flex;
+    justify-content: center;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    font-size: 1.1rem;
+
+}
+
+.footer-MTs{
+    margin-right: 10px;
+}
+
+.footer2{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+
+}
+
+.footer2-text{
+    display: inline;
+    color: #999;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.footer2-img-1{
+    height: 20px;
+    width: 35px;
+    vertical-align: -5px;
+    
+}
+
+.footer2-img-2{
+    height: 30px;
+    width: 60px;
+    vertical-align: -10px;
+
 }
