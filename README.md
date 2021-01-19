@@ -20,11 +20,13 @@ CSS
 ### Shweta Srivastava
 
 _[Github](https://github.com/vidhishweta01)
+
 _[LinkedIn](http://linkedin.com/in/shweta-s-15a57070)
 
 ### Ayman Jabr
 
 _[Github](https://github.com/AymanJabr/)
+
 _[LinkedIn](https://www.linkedin.com/in/ayman-jabr-3705a4100/)
 
 ## Show your support ⭐️⭐️
@@ -35,4 +37,3 @@ Give a star if you like this project!
 
 This project is [MIT](https://www.mit.edu/~amini/LICENSE.md) licensed.
 
-# html-linters
