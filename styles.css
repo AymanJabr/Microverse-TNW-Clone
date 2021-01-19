@@ -368,3 +368,29 @@
   border: 0.3px solid #ccc;
   border-radius: 5px;
   }
+ .nav2 a {
+     color: gray;
+ }
+.latest-news-section {
+    position: relative;
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17%;
+    column-gap: 10mm;
+    margin-left: 7cm;
+
+}
+
+.article-description {
+    font-size: 16px;
+    text-align: centre;
+    font-weight: bold;
+}
+
+.timeline {
+    font-size: 15px;
+    text-align: left;
+}
+main .heading {
+    align-content: center;
+    margin-left: 7cm;
+}
