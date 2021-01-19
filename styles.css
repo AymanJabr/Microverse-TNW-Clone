@@ -100,7 +100,7 @@
 
 .utility-latest-text{
 
-}
+} 
 
 .utility-latest-container{
     display: flex;
@@ -290,9 +290,17 @@
   width: 60px;
   vertical-align: -10px;
 }
+
+nav {
+  position:fixed;
+  z-index: 300;
+  width: 100%
+}
 .nav1 {
     overflow: hidden;
     background-color: #333;
+    position:;
+    z-index:;
   }
   
   .nav1 a {
@@ -356,10 +364,17 @@
   }
 
   .nav2 {
+
+      background-color: white;
+      border-top: 1px white;
+      border-bottom: 1px white;
+      width: 100%;
+      position: ;
       overflow: hidden;
       padding: 12px 11px;
       text-align: left;
       white-space: normal;
+      z-index:;
   }
 
 
