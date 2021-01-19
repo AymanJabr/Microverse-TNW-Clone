@@ -464,6 +464,14 @@ main .heading {
   margin-left: 7cm;
 }
 
+.utility-section>div>.heading{
+  margin-left: 0px;
+}
+
+.latest-deals-section>div>.heading{
+  margin-left: 0px;
+}
+
 .latest-fund-pic {
     display: grid;
     grid-template-columns: 26% 26% 26% 26%;
