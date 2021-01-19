@@ -440,11 +440,13 @@
   margin-left: 5px;
 }
 .latest-news-section {
-  position: relative;
-  display: grid;
-  grid-template-columns: 17% 17% 17% 17%;
-  column-gap: 10mm;
-  margin-left: 7cm;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 2cm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+
 }
 
 .article-description {
@@ -460,4 +462,37 @@
 main .heading {
   align-content: center;
   margin-left: 7cm;
+}
+
+.latest-fund-pic {
+    display: grid;
+    grid-template-columns: 26% 26% 26% 26%;
+    column-gap: 0mm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+}
+
+.lines{
+    width: 80%;
+    color: rgb(248, 109, 59);
+}
+
+.founding-round-description {
+    margin-left: 2cm;
+    font-size: 15px;
+    color: slategray;
+}
+
+.latest-funding-section .latest-funding-aside {
+    display: inline;
+    float: right;
+    margin-right: 17rem;
+    font-weight: bold;
+    color: orangered;
+}
+.founding-rounds-website {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    margin-right: 2cm;
 }
