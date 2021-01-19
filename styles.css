@@ -9,6 +9,75 @@
   font-size: 1.6rem;
 }
 
+.images-header {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  margin-top: 10vh;
+
+  margin-bottom: 60px;
+}
+
+.images-header-image {
+  width: 100%;
+  height: 100%;
+}
+
+.images-header-main {
+  position: relative;
+  flex: 65%;
+  margin: 5px;
+}
+
+.images-header-image-text{
+  position: absolute;
+  top: 10px;
+}
+
+.images-header-logo{
+  width: 60%;
+  height: 15%;
+}
+
+.images-header-timeline{
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+.images-header-title{
+  position: absolute;
+  top: 350px;
+  left: 10px;
+  color: white;
+  font-size: 3.2rem;
+}
+
+.images-header-title-aside{
+  position: absolute;
+  color: white;
+  font-size: 2.2rem;
+  top: 100px;
+  left: 10px;
+
+}
+
+.images-header-side {
+  flex: 35%;
+}
+
+.images-header-side1 {
+  margin-top: 5px;
+  position: relative;
+}
+
+.images-header-side2 {
+  margin-bottom: 1px;
+  position: relative;
+}
+
 .utility-section {
   display: grid;
   margin-right: 10vw;
@@ -53,94 +122,85 @@
 }
 
 .utility-images-container {
-    text-align: left;
-    position: relative;
+  text-align: left;
+  position: relative;
 }
 
-.utility-images-text{
-    position: absolute;
-    left: 10px;
-    z-index: 2;
-    bottom: 10px;
-
+.utility-images-text {
+  position: absolute;
+  left: 10px;
+  z-index: 2;
+  bottom: 10px;
 }
 
-.utility-MP{
-    color: white;
+.utility-MP {
+  color: white;
 }
 
-.utility-title{
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bolder;
-    text-decoration: none;
+.utility-title {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 .utility-image {
-    width: 100%;
-    height: 200px;
+  width: 100%;
+  height: 200px;
 }
 
-.utility-image-link{
-    text-decoration: none;
+.utility-image-link {
+  text-decoration: none;
 }
 
-.timeline{
-    color: #999;
-    font-size: 0.9rem;
+.timeline {
+  color: #999;
+  font-size: 0.9rem;
 }
 
-.utility-latest{
-    background-color: rgba(251, 181, 116, 0.421);
-    display: flex;
-    flex: 4fr 1fr;
-    color: #f42;
-
+.utility-latest {
+  background-color: rgba(251, 181, 116, 0.421);
+  display: flex;
+  flex: 4fr 1fr;
+  color: #f42;
 }
 
-.utility-latest-text{
-
-} 
-
-.utility-latest-container{
-    display: flex;
-    flex: 4fr 1fr;
-    flex-direction: column;
-    padding: 10px;
-    color: #f42;
+.utility-latest-container {
+  display: flex;
+  flex: 4fr 1fr;
+  flex-direction: column;
+  padding: 10px;
+  color: #f42;
 }
 
-.utility-LT{
-    color: #f42;
-
-
+.utility-LT {
+  color: #f42;
 }
 
-.utility-LT-link{
-    text-decoration: none;
+.utility-LT-link {
+  text-decoration: none;
 }
 
-.utility-latest-image{
-    float: right;
-    width: 100px;
-    object-fit: cover;    
-
+.utility-latest-image {
+  float: right;
+  width: 100px;
+  object-fit: cover;
 }
 
-.utility-ul{
-    color: #f42;
-    list-style-position: inside;
-    margin-top: 10px;
+.utility-ul {
+  color: #f42;
+  list-style-position: inside;
+  margin-top: 10px;
 }
 
-.utility-ul-li{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.utility-ul-li {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.utility-ul-links{
-    text-decoration: none;
-    color: #666;
+.utility-ul-links {
+  text-decoration: none;
+  color: #666;
 }
 
 .latest-deals-section {
@@ -294,13 +354,14 @@
 nav {
   position:fixed;
   z-index: 300;
-  width: 100%
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .nav1 {
     overflow: hidden;
     background-color: #333;
-    position:;
-    z-index:;
   }
   
   .nav1 a {
@@ -369,12 +430,11 @@ nav {
       border-top: 1px white;
       border-bottom: 1px white;
       width: 100%;
-      position: ;
       overflow: hidden;
       padding: 12px 11px;
       text-align: left;
       white-space: normal;
-      z-index:;
+      box-shadow: 7px 6px 5px 0px rgb(179, 177, 177);
   }
 
 
@@ -382,10 +442,13 @@ nav {
       color: #ccc;
   border: 0.3px solid #ccc;
   border-radius: 5px;
-  }
- .nav2 a {
-     color: gray;
- }
+}
+.nav2 a {
+  color: gray;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 5px;
+}
 .latest-news-section {
     position: relative;
     display: grid;
@@ -397,18 +460,18 @@ nav {
 }
 
 .article-description {
-    font-size: 16px;
-    text-align: centre;
-    font-weight: bold;
+  font-size: 16px;
+  text-align: centre;
+  font-weight: bold;
 }
 
 .timeline {
-    font-size: 15px;
-    text-align: left;
+  font-size: 15px;
+  text-align: left;
 }
 main .heading {
-    align-content: center;
-    margin-left: 7cm;
+  align-content: center;
+  margin-left: 7cm;
 }
 
 .latest-fund-pic {
