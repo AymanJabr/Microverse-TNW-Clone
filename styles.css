@@ -524,7 +524,7 @@ main .heading {
 }
 
 @media (max-width: 768px){
-.images-header {
+  .images-header {
   flex-direction: column;
 }
 .latest-news-section {
