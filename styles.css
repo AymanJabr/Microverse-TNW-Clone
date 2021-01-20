@@ -11,6 +11,7 @@
 .alternate_nav {
   display: none;
 }
+
 .heading {
   color: #f42;
   font-size: 1.6rem;
@@ -19,11 +20,9 @@
 .images-header {
   display: flex;
   flex-direction: row;
-
   margin-left: 0.5vw;
   margin-right: 0.5vw;
   margin-top: 12vh;
-
   margin-bottom: 60px;
 }
 
@@ -349,11 +348,6 @@ nav {
   margin: 0;
 }
 
-.nav1 a:hover,
-.dropdown:hover .dropbtn {
-  background-color: black;
-}
-
 .nav1 .menu_right {
   position: absolute;
   right: 0px;
@@ -402,12 +396,14 @@ nav {
   border: 0.3px solid #ccc;
   border-radius: 5px;
 }
+
 .nav2 a {
   color: gray;
   text-decoration: none;
   margin-right: 20px;
   margin-left: 5px;
 }
+
 .latest-news-section {
   position: relative;
   display: grid;
@@ -485,6 +481,11 @@ main .heading {
 
 .latest-funding-aside_small {
   display: none;
+}
+
+.nav1 a:hover,
+.dropdown:hover .dropbtn {
+  background-color: black;
 }
 
 @media (max-width: 1024px) {
@@ -642,7 +643,6 @@ main .heading {
     top: 0;
     color: grey;
     margin-right: 4vw;
-    /* border: 1px solid gray; */
   }
 
   .alternate_nav:nth-of-type(1) {
@@ -652,6 +652,7 @@ main .heading {
   .nav1 {
     display: none;
   }
+
   .nav2 {
     display: none;
   }
@@ -695,10 +696,12 @@ main .heading {
     margin-right: 0;
     width: 100%;
   }
+
   .latest-news-pic {
     width: 14%;
     height: 45%;
   }
+
   .article-description {
     grid-area: title;
     display: inline-block;
@@ -723,6 +726,7 @@ main .heading {
     margin-right: 0;
     margin-left: 2vw;
   }
+
   .latest-funding-aside {
     display: none !important;
     margin-right: 0;
@@ -789,12 +793,12 @@ main .heading {
   .aside-test {
     display: block;
   }
+
   .utility-section {
     display: grid;
     margin-right: 1vw;
     margin-left: 1vw;
     grid-template-columns: 100%;
-
     grid-template-areas:
       "utility1"
       "utility2"
@@ -900,9 +904,11 @@ main .heading {
     grid-area: deal-price;
     font-size: 12px;
   }
+
   .deals-image {
     grid-area: image;
   }
+
   .latest-deals1,
   .latest-deals2,
   .latest-deals3,
