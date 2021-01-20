@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.logo {
+display: none;
+}
+
+.alternate_nav {
+  display: none;
+}
 .heading {
   color: #f42;
   font-size: 1.6rem;
@@ -524,7 +531,31 @@ main .heading {
 }
 
 @media (max-width: 768px){
+
+  .logo {
+    display: unset;
+    height: 9vw;
+    widhth: 10vh;
+
+  }
+
+  .alternate_nav {
+    margin-top: 0;
+    margin-bottom: 3vh;
+    display: unset;
+    float:right;
+    top: 0;
+    color: black;
+    margin-right: 4vw;
+  }
+  .nav1 {
+    display: none;
+  }
+  .nav2 {
+    display: none;
+  }
   .images-header {
+    margin-top: 4vh;
   flex-direction: column;
 }
 .latest-news-section {
