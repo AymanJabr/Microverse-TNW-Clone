@@ -1,36 +1,34 @@
 @media (max-width: 768px) {
-    body {
-        background-size: cover;
-        background-image: linear-gradient(to bottom right, magenta, orangered);
-        background-repeat: no-repeat;
-        margin-right: 0;
-    }
-    
-    body a {
-        color: azure;
-        padding: 10px 10px;
-    }
-    .navigation {
-        display: flex;
-        flex-direction: row;  
-        width: 100%;
-        color: azure;
-        padding-left: 5vw;
-    
-    }
-    
-    .nav1 {
-        margin-top: 3vh;
-        display: flex;
-        flex-direction:column;
-        padding-left: 5vw;
-    }
-    
-    .nav2 {
-        margin-top: 3vh;
-        display: flex;
-        flex-direction: column;
-        padding-left: 30vw;
-    
-    }
+  body {
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, magenta, orangered);
+    background-repeat: no-repeat;
+    margin-right: 0;
+  }
+
+  body a {
+    color: azure;
+    padding: 10px 10px;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: azure;
+    padding-left: 5vw;
+  }
+
+  .nav1 {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+  }
+
+  .nav2 {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30vw;
+  }
 }
