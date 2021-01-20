@@ -2,7 +2,7 @@
 
 A TheNextWeb clone, used for training purposes
 
-<!-- ![Screenshot-of-live-demo]() -->
+![Screenshot-of-live-demo](./assets/screenshot.JPG)
 
 This is a project for the Microverse training program, Week 2, and it aims to simulate the HTML and CSS parts of the [The Next Web Landing page](https://thenextweb.com/).
 
@@ -13,7 +13,7 @@ CSS
 
 ## Live Demo
 
-[Try a lıve demo](microverse-tnw-clone.netlify.app)
+[Try a lıve demo](https://microverse-tnw-clone.netlify.app/)
 
 ## Authors 👤
 
