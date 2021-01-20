@@ -133,11 +133,6 @@
   text-decoration: none;
 }
 
-.timeline {
-  color: #999;
-  font-size: 0.9rem;
-}
-
 .utility-latest {
   background-color: rgba(251, 181, 116, 0.421);
   display: flex;
@@ -250,7 +245,6 @@ footer {
   background-color: #444;
   border-radius: 50%;
   padding: 10px;
-  border: 0px solid black;
   margin-bottom: 20px;
   margin-right: 5px;
 }
@@ -358,7 +352,7 @@ nav {
   position: absolute;
   background-color: black;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -369,10 +363,6 @@ nav {
   text-decoration: none;
   display: block;
   text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #333;
 }
 
 .dropdown:hover .dropdown-content {
@@ -388,7 +378,7 @@ nav {
   padding: 12px 11px;
   text-align: left;
   white-space: normal;
-  box-shadow: 7px 6px 5px 0px rgb(179, 177, 177);
+  box-shadow: 7px 6px 5px rgb(179, 177, 177);
 }
 
 .utility-ul > hr {
@@ -425,6 +415,7 @@ nav {
 }
 
 .timeline {
+  color: #999;
   font-size: 15px;
   text-align: left;
 }
@@ -481,6 +472,10 @@ main .heading {
 
 .latest-funding-aside_small {
   display: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #333;
 }
 
 .nav1 a:hover,
