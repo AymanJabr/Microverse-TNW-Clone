@@ -153,8 +153,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 4fr;
-      -ms-flex: 4fr 1fr;
-          flex: 4fr 1fr;
+  -ms-flex: 4fr 1fr;
+  flex: 4fr 1fr;
   color: #f42;
 }
 
