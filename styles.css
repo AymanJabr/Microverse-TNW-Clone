@@ -698,7 +698,6 @@ main .heading {
     grid-area: title;
     display: inline-block;
     font-size: 2.5vw;
-    float: right;
     margin-right: 3vw;
   }
 
