@@ -538,7 +538,8 @@ main .heading {
   background-color: #333;
 }
 
-.nav1 a:hover, .dropdown:hover .dropbtn {
+.nav1 a:hover, 
+.dropdown:hover .dropbtn {
   background-color: black;
 }
 
@@ -548,11 +549,11 @@ main .heading {
 
 @media (max-width: 1024px) {
   .nav-logo {
-  display: inline-block;
-  background-color: black;
-  -webkit-box-flex: 15%;
-  -ms-flex: 15%;
-  flex: 15%;
+    display: inline-block;
+    background-color: black;
+    -webkit-box-flex: 15%;
+    -ms-flex: 15%;
+    flex: 15%;
   }
 
   .nav {
@@ -667,6 +668,7 @@ main .heading {
     margin-left: 1vw;
     margin-right: 1vw;
   }
+
   .utility-section {
     margin-right: 1vw;
     margin-left: 1vw;
@@ -832,10 +834,7 @@ main .heading {
     display: -ms-grid;
     display: grid;
     grid-template-areas: "pic title" "pic timeline";
-    -ms-grid-columns: 10% 90%;
-        grid-template-columns: 10% 90%;
-    -webkit-column-gap: 10px;
-            column-gap: 10px;
+    column-gap: 10px;
     margin-left: 1vw;
     margin-right: 1vw;
   }
