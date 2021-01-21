@@ -928,11 +928,12 @@ main .heading {
     left: 0;
   }
 
+  .ninja-small {
+    display: none;
+  }
+
   .small-screen-nav-right {
     float: right;
   }
 
-  .ninja-small {
-    display: none;
-  }
 }
