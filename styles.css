@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-.logo {
-  display: none;
-}
-
-.alternate_nav {
-  display: none;
-}
-
 .heading {
   color: #f42;
   font-size: 1.6rem;
@@ -485,6 +477,10 @@ main .heading {
   background-color: black;
 }
 
+.ninja-big {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .nav-logo {
     display: inline-block;
@@ -617,6 +613,10 @@ main .heading {
 
   .images-header {
     height: 450px;
+  }
+
+  .ninja-big {
+    display: initial;
   }
 
   .ninja {
@@ -818,38 +818,14 @@ main .heading {
     float: none;
   }
 
-  .utility1 {
-    font-size: 17px;
-  }
-
-  .utility2 {
-    font-size: 17px;
-  }
-
-  .utility3 {
-    font-size: 17px;
-  }
-
-  .utility4 {
-    font-size: 17px;
-  }
-
-  .utility5 {
-    font-size: 17px;
-  }
-
-  .utility6 {
-    font-size: 17px;
-  }
-
-  .utility7 {
-    font-size: 17px;
-  }
-
-  .utility8 {
-    font-size: 17px;
-  }
-
+  .utility1,
+  .utility2,
+  .utility3,
+  .utility4,
+  .utility5,
+  .utility6,
+  .utility7,
+  .utility8,
   .utility9 {
     font-size: 17px;
   }
