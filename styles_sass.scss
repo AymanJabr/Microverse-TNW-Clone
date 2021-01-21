@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-  
+
 .heading {
   color: #f42;
   font-size: 1.6rem;
 }
-  
+
 .images-header {
   display: flex;
   flex-direction: row;
@@ -17,43 +17,43 @@
   margin-top: 12vh;
   margin-bottom: 60px;
 }
-  
+
 .images-header-image {
   width: 100%;
   height: 100%;
 }
-  
+
 .images-header-main {
   position: relative;
   flex: 65%;
   margin: 5px;
 }
-  
+
 .images-header-image-text {
   position: absolute;
   top: 10px;
-    
+
   > a {
     text-decoration: none;
   }
 }
-  
+
 .images-header-logo {
   width: 60%;
   height: 15%;
 }
-  
+
 .images-header-timeline {
   position: absolute;
   bottom: 20px;
   left: 10px;
 }
-  
+
 .images-header-title {
   color: white;
   font-size: 3.2rem;
 }
-  
+
 .images-header-title-aside {
   position: absolute;
   color: white;
@@ -61,27 +61,27 @@
   top: 100px;
   left: 10px;
 }
-  
+
 .images-header-side {
   flex: 35%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-  
+
 .images-header-side1 {
   margin-top: 5px;
   position: relative;
   flex: 50%;
 }
-  
+
 .images-header-side2 {
   margin-bottom: 5px;
   margin-top: 5px;
   position: relative;
   flex: 50%;
 }
-  
+
 .utility-section {
   display: grid;
   margin-right: 10vw;
@@ -92,46 +92,46 @@
   column-gap: 20px;
   row-gap: 100px;
 }
-  
+
 .utility-images-container {
   text-align: left;
   position: relative;
 }
-  
+
 .utility-images-text {
   position: absolute;
   left: 10px;
   z-index: 2;
   bottom: 10px;
 }
-  
+
 .utility-MP {
   color: white;
 }
-  
+
 .utility-title {
   color: white;
   font-size: 1.3rem;
   font-weight: bolder;
   text-decoration: none;
 }
-  
+
 .utility-image {
   width: 100%;
   height: 200px;
 }
-  
+
 .utility-image-link {
   text-decoration: none;
 }
-  
+
 .utility-latest {
   background-color: rgba(251, 181, 116, 0.421);
   display: flex;
   flex: 4fr 1fr;
   color: #f42;
 }
-  
+
 .utility-latest-container {
   display: flex;
   flex: 4fr 1fr;
@@ -139,37 +139,37 @@
   padding: 10px;
   color: #f42;
 }
-  
+
 .utility-LT {
   color: #f42;
 }
-  
+
 .utility-LT-link {
   text-decoration: none;
 }
-  
+
 .utility-latest-image {
   float: right;
   width: 100px;
   object-fit: cover;
 }
-  
+
 .utility-ul {
   color: #f42;
   list-style-position: inside;
   margin-top: 10px;
 }
-  
+
 .utility-ul-li {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-  
+
 .utility-ul-links {
   text-decoration: none;
   color: #666;
 }
-  
+
 .latest-deals-section {
   display: flex;
   flex-direction: column;
@@ -178,24 +178,24 @@
   margin-left: 15vw;
   margin-bottom: 70px;
 }
-  
+
 .latest-deals-aside {
   display: inline;
   float: right;
   color: #f42;
 }
-  
+
 .latest-deals-header {
   margin-bottom: 15px;
 }
-  
+
 .latest-deals-body {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   column-gap: 10px;
   row-gap: 20px;
 }
-  
+
 .deal-price-discount {
   display: inline;
   margin-left: 5px;
@@ -203,22 +203,22 @@
   font-size: 0.9rem;
   text-decoration: line-through;
 }
-  
+
 .deal-price {
   display: inline;
   color: #666;
   font-size: 1.1rem;
 }
-  
+
 .latest-deals-image {
   width: 100%;
   height: 200px;
 }
-  
+
 footer {
   background-color: black;
 }
-  
+
 .footer1 {
   background-color: #131313;
   display: flex;
@@ -227,12 +227,12 @@ footer {
   padding-top: 30px;
   padding-bottom: 35px;
 }
-  
+
 .footer-icons {
   display: flex;
   justify-content: center;
 }
-  
+
 .footer-icons-buttons {
   background-color: #444;
   border-radius: 50%;
@@ -308,7 +308,7 @@ nav {
 .nav1 {
   overflow: hidden;
   background-color: #333;
-  
+
   a {
     float: left;
     font-size: 16px;
@@ -322,7 +322,7 @@ nav {
 .dropdown {
   float: left;
   overflow: hidden;
-   
+
   .dropbtn {
     font-size: 16px;
     border: none;
@@ -347,7 +347,7 @@ nav {
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  
+
   a {
     float: none;
     color: white;
@@ -418,8 +418,7 @@ main .heading {
   margin-left: 7cm;
 }
 
-.utility-section > div > .heading, 
-.latest-deals-section > div > .heading {
+.utility-section > div > .heading, .latest-deals-section > div > .heading {
   margin-left: 0;
 }
 
@@ -619,7 +618,7 @@ main .heading {
     display: none;
   }
 }
-  
+
 @media (max-width: 768px) {
   .logo {
     display: unset;

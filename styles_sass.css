@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .heading {
@@ -16,8 +16,8 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-left: 0.5vw;
   margin-right: 0.5vw;
   margin-top: 12vh;
@@ -32,8 +32,8 @@
 .images-header-main {
   position: relative;
   -webkit-box-flex: 65%;
-  -ms-flex: 65%;
-  flex: 65%;
+      -ms-flex: 65%;
+          flex: 65%;
   margin: 5px;
 }
 
@@ -72,24 +72,24 @@
 
 .images-header-side {
   -webkit-box-flex: 35%;
-  -ms-flex: 35%;
-  flex: 35%;
+      -ms-flex: 35%;
+          flex: 35%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .images-header-side1 {
   margin-top: 5px;
   position: relative;
   -webkit-box-flex: 50%;
-  -ms-flex: 50%;
-  flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
 }
 
 .images-header-side2 {
@@ -97,8 +97,8 @@
   margin-top: 5px;
   position: relative;
   -webkit-box-flex: 50%;
-  -ms-flex: 50%;
-  flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
 }
 
 .utility-section {
@@ -109,9 +109,9 @@
   margin-top: 100px;
   margin-bottom: 100px;
   -ms-grid-columns: 33% 33% 33%;
-  grid-template-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
   -webkit-column-gap: 20px;
-  column-gap: 20px;
+          column-gap: 20px;
   row-gap: 100px;
 }
 
@@ -153,8 +153,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 4fr;
-  -ms-flex: 4fr 1fr;
-  flex: 4fr 1fr;
+      -ms-flex: 4fr 1fr;
+          flex: 4fr 1fr;
   color: #f42;
 }
 
@@ -163,12 +163,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 4fr;
-  -ms-flex: 4fr 1fr;
-  flex: 4fr 1fr;
+      -ms-flex: 4fr 1fr;
+          flex: 4fr 1fr;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 10px;
   color: #f42;
 }
@@ -185,7 +185,7 @@
   float: right;
   width: 100px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .utility-ul {
@@ -210,11 +210,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-flex: 1fr;
-  -ms-flex: 1fr 5fr;
-  flex: 1fr 5fr;
+      -ms-flex: 1fr 5fr;
+          flex: 1fr 5fr;
   margin-right: 15vw;
   margin-left: 15vw;
   margin-bottom: 70px;
@@ -234,9 +234,9 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 25% 25% 25%;
-  grid-template-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
   -webkit-column-gap: 10px;
-  column-gap: 10px;
+          column-gap: 10px;
   row-gap: 20px;
 }
 
@@ -270,10 +270,10 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   padding-top: 30px;
   padding-bottom: 35px;
 }
@@ -283,8 +283,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-icons-buttons {
@@ -308,8 +308,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 25vw;
   margin-left: 25vw;
   font-size: 1.1rem;
@@ -406,7 +406,7 @@ nav {
   background-color: black;
   min-width: 160px;
   -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -433,7 +433,7 @@ nav {
   text-align: left;
   white-space: normal;
   -webkit-box-shadow: 7px 6px 5px #b3b1b1;
-  box-shadow: 7px 6px 5px #b3b1b1;
+          box-shadow: 7px 6px 5px #b3b1b1;
 }
 
 .utility-ul > hr {
@@ -454,9 +454,9 @@ nav {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 20% 20% 20% 20%;
-  grid-template-columns: 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20%;
   -webkit-column-gap: 2cm;
-  column-gap: 2cm;
+          column-gap: 2cm;
   margin-left: 7cm;
   margin-right: 7cm;
   margin-top: 20px;
@@ -480,12 +480,11 @@ nav {
 
 main .heading {
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   margin-left: 7cm;
 }
 
-.utility-section > div > .heading,
-.latest-deals-section > div > .heading {
+.utility-section > div > .heading, .latest-deals-section > div > .heading {
   margin-left: 0;
 }
 
@@ -493,9 +492,9 @@ main .heading {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 26% 26% 26% 26%;
-  grid-template-columns: 26% 26% 26% 26%;
+      grid-template-columns: 26% 26% 26% 26%;
   -webkit-column-gap: 0;
-  column-gap: 0;
+          column-gap: 0;
   margin-left: 7cm;
   margin-right: 7cm;
 }
@@ -538,8 +537,7 @@ main .heading {
   background-color: #333;
 }
 
-.nav1 a:hover, 
-.dropdown:hover .dropbtn {
+.nav1 a:hover, .dropdown:hover .dropbtn {
   background-color: black;
 }
 
@@ -552,22 +550,19 @@ main .heading {
     display: inline-block;
     background-color: black;
     -webkit-box-flex: 15%;
-    -ms-flex: 15%;
-    flex: 15%;
+        -ms-flex: 15%;
+            flex: 15%;
   }
-
   .nav {
     -webkit-box-flex: 85%;
-    -ms-flex: 85%;
-    flex: 85%;
+        -ms-flex: 85%;
+            flex: 85%;
   }
-
   .nav-logo-image {
     width: 10vw;
     margin-top: 35px;
     margin-left: 20px;
   }
-
   .nav1 a {
     float: left;
     font-size: 12px;
@@ -576,7 +571,6 @@ main .heading {
     padding: 14px 6px;
     text-decoration: none;
   }
-
   .dropdown .dropbtn {
     font-size: 12px;
     border: none;
@@ -587,7 +581,6 @@ main .heading {
     font-family: inherit;
     margin: 0;
   }
-
   .images-header-title {
     position: static;
     margin-left: 10px;
@@ -596,11 +589,9 @@ main .heading {
     font-size: 2.2rem;
     margin-top: 250px;
   }
-
   .images-header-title-aside {
     font-size: 1.4rem;
   }
-
   .footer-icons-buttons {
     background-color: #444;
     border-radius: 50%;
@@ -609,44 +600,39 @@ main .heading {
     margin-right: 7px;
     margin-left: 7px;
   }
-
   .footer-icons-images {
     width: 16px;
     height: 16px;
     vertical-align: -3px;
   }
-
   .footer-menus {
     color: #bbb;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-right: 15vw;
     margin-left: 15vw;
     font-size: 1.1rem;
   }
-
   .latest-news-section {
     position: relative;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 32% 32% 32%;
-    grid-template-columns: 32% 32% 32%;
+        grid-template-columns: 32% 32% 32%;
     -webkit-column-gap: 10px;
-    column-gap: 10px;
+            column-gap: 10px;
     row-gap: 20px;
     margin-left: 1vw;
     margin-right: 1vw;
   }
-
   main .heading {
     position: relative;
     margin-left: 2vw;
   }
-
   .latest-funding-section .latest-funding-aside {
     float: none;
     display: block;
@@ -657,50 +643,42 @@ main .heading {
     font-weight: bold;
     color: orangered;
   }
-
   .latest-fund-pic {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 32% 32% 32%;
-    grid-template-columns: 32% 32% 32%;
+        grid-template-columns: 32% 32% 32%;
     -webkit-column-gap: 0;
-    column-gap: 0;
+            column-gap: 0;
     margin-left: 1vw;
     margin-right: 1vw;
   }
-
   .utility-section {
     margin-right: 1vw;
     margin-left: 1vw;
     margin-top: 100px;
     margin-bottom: 100px;
     -ms-grid-columns: 50% 48%;
-    grid-template-columns: 50% 48%;
+        grid-template-columns: 50% 48%;
     row-gap: 50px;
   }
-
   .utility-image {
     height: 300px;
   }
-
   .latest-deals-section {
     margin-right: 1vw;
     margin-left: 1vw;
   }
-
   .latest-deals-body {
     -ms-grid-columns: 32% 32% 32%;
-    grid-template-columns: 32% 32% 32%;
+        grid-template-columns: 32% 32% 32%;
   }
-
   .images-header {
     height: 450px;
   }
-
   .ninja-big {
     display: initial;
   }
-
   .ninja {
     display: none;
   }
@@ -712,7 +690,6 @@ main .heading {
     height: 7.5vw;
     width: 14vh;
   }
-
   .alternate_nav {
     font-size: 1.7rem;
     margin-top: 15px;
@@ -722,22 +699,17 @@ main .heading {
     color: grey;
     margin-right: 4vw;
   }
-
   .alternate_nav:nth-of-type(1) {
     color: orangered;
   }
-
-  .nav1, 
-  .nav2 {
+  .nav1, .nav2 {
     display: none;
   }
-
   .images-header {
     height: auto;
     margin-top: 11vh;
     display: inline-block;
   }
-
   .images-header-title {
     position: static;
     margin-left: 10px;
@@ -747,118 +719,110 @@ main .heading {
     font-weight: bolder;
     margin-top: 180px;
   }
-
   .images-header-side {
     -webkit-box-flex: 1fr;
-    -ms-flex: 1fr;
-    flex: 1fr;
+        -ms-flex: 1fr;
+            flex: 1fr;
   }
-
   hr {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-
   .images-header-title-aside {
     font-size: 2.2rem;
     font-weight: bolder;
     top: 170px;
     left: 10px;
   }
-
   .latest-news-section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 100%;
-    grid-template-columns: 100%;
+        grid-template-columns: 100%;
     -ms-grid-rows: auto;
-    grid-template-rows: auto;
+        grid-template-rows: auto;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
   }
-
   .article-description {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
     grid-area: title;
     display: inline-block;
     font-size: 2.5vw;
     margin-right: 3vw;
   }
-
   .timeline {
     font-size: 12px;
     float: right;
     margin-right: 16vw;
   }
-
   .article .timeline {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
     grid-area: timeline;
   }
-
   main .heading {
     font-size: 2.5rem;
     font-weight: bolder;
     margin-right: 0;
     margin-left: 2vw;
   }
-
   .latest-funding-aside {
     display: none !important;
     margin-right: 0;
     margin-left: 0;
     float: none;
   }
-
   .latest-funding-aside_small {
     display: block;
     margin-left: 2vw;
     font-weight: bold;
     color: orangered;
   }
-
   .latest-fund-pic {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     row-gap: 2vh;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
-
   .article {
     display: -ms-grid;
     display: grid;
-    grid-template-areas: "pic title" "pic timeline";
-    column-gap: 10px;
+        grid-template-areas: "pic title" "pic timeline";
+    -ms-grid-columns: 10% 90%;
+        grid-template-columns: 10% 90%;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
     margin-left: 1vw;
     margin-right: 1vw;
   }
-
   .article > a {
+    -ms-grid-row: 1;
     -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
     grid-area: pic;
   }
-
   .latest-news-pic {
     margin-top: 2px;
     height: 90%;
     width: 100%;
   }
-
   .company-founding-round-img {
     height: 70px !important;
     width: 90% !important;
   }
-
   .lines {
     width: 100%;
   }
-
   .founding-rounds-website {
     width: 99%;
     font-size: 15px;
@@ -866,105 +830,86 @@ main .heading {
     margin-right: 0;
     margin-left: 1vw;
   }
-
   .aside-test {
     display: block;
   }
-
   .utility-section {
     display: -ms-grid;
     display: grid;
     margin-right: 1vw;
     margin-left: 1vw;
     -ms-grid-columns: 100%;
-    grid-template-columns: 100%;
-    grid-template-areas: "utility1" "utility2" "utility3" "utility4" "utility5" "utility6" "utility7" "utility8" "utility9";
+        grid-template-columns: 100%;
+        grid-template-areas: "utility1" "utility2" "utility3" "utility4" "utility5" "utility6" "utility7" "utility8" "utility9";
     row-gap: 20px;
   }
-
   .utility-image {
     height: 500px;
   }
-
   .utility-images-text {
     bottom: 10px;
   }
-
   .utility-title {
     font-size: 2.1rem;
   }
-
   .utility-image-link > p {
     float: none;
   }
-
-  .utility1, 
-  .utility2, 
-  .utility3, 
-  .utility4, 
-  .utility5, 
-  .utility6,
-  .utility7, 
-  .utility8, 
-  .utility9 {
+  .utility1, .utility2, .utility3, .utility4, .utility5, .utility6, .utility7, .utility8, .utility9 {
     font-size: 17px;
   }
-
   .utility-ul-links {
     text-decoration: none;
     color: #666;
     font-size: 1.5vh;
   }
-
   .latest-deals-body {
     display: -ms-grid;
     display: grid;
-    grid-template-areas: "deal1" "deal2" "deal3" "deal4" "deal5" "deal6" "deal7" "deal8";
+        grid-template-areas: "deal1" "deal2" "deal3" "deal4" "deal5" "deal6" "deal7" "deal8";
     -ms-grid-columns: 100%;
-    grid-template-columns: 100%;
+        grid-template-columns: 100%;
     row-gap: 10px;
   }
-
   .latest-deals-image {
     width: 100%;
     height: 100%;
   }
-
   .latest-deal-title {
     margin-right: 0;
     font-size: 2vh;
   }
-
   .deal-price-discount {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
     grid-area: deal-price-discount;
     font-size: 12px;
   }
-
   .deal-price {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
     grid-area: deal-price;
     font-size: 12px;
   }
-
   .deals-image {
+    -ms-grid-row: 1;
     -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
     grid-area: image;
   }
-
   .latest-deals1, .latest-deals2, .latest-deals3, .latest-deals4, .latest-deals5, .latest-deals6, .latest-deals7, .latest-deals8 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 19% 79%;
-    grid-template-columns: 19% 79%;
-    grid-template-areas: "image deals-title" "image deal-price-discount" "image deal-price";
+        grid-template-columns: 19% 79%;
+        grid-template-areas: "image deals-title" "image deal-price-discount" "image deal-price";
     -webkit-column-gap: 2vw;
-    column-gap: 2vw;
+            column-gap: 2vw;
   }
-
   .footer2 {
     margin-left: 31vw;
     margin-right: 31vw;
   }
-
   .footer2-text {
     width: 100%;
     margin-left: 5vw;
@@ -973,34 +918,29 @@ main .heading {
     font-weight: bold;
     text-align: left;
   }
-
   .footer2-img-1 {
     height: 17px;
     width: 30px;
     vertical-align: -2px;
   }
-
   .footer2-img-2 {
     height: 25px;
     width: 60px;
     vertical-align: -7px;
   }
-
   .small-screen-nav {
     background-color: white;
     -webkit-box-shadow: 7px 6px 5px 0 #b3b1b1;
-    box-shadow: 7px 6px 5px 0 #b3b1b1;
+            box-shadow: 7px 6px 5px 0 #b3b1b1;
     position: fixed;
     z-index: 2;
     top: 0;
     right: 0;
     left: 0;
   }
-
   .ninja-small {
     display: none;
   }
-
   .small-screen-nav-right {
     float: right;
   }
