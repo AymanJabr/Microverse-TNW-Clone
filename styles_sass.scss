@@ -2,87 +2,87 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  .heading {
+.heading {
     color: #f42;
     font-size: 1.6rem;
-  }
+}
   
-  .images-header {
+.images-header {
     display: flex;
     flex-direction: row;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     margin-top: 12vh;
     margin-bottom: 60px;
-  }
+}
   
-  .images-header-image {
+.images-header-image {
     width: 100%;
     height: 100%;
-  }
+}
   
-  .images-header-main {
+.images-header-main {
     position: relative;
     flex: 65%;
     margin: 5px;
-  }
+}
   
-  .images-header-image-text {
+.images-header-image-text {
     position: absolute;
     top: 10px;
-  
+    
     > a {
       text-decoration: none;
     }
-  }
+}
   
-  .images-header-logo {
+.images-header-logo {
     width: 60%;
     height: 15%;
-  }
+}
   
-  .images-header-timeline {
+.images-header-timeline {
     position: absolute;
     bottom: 20px;
     left: 10px;
-  }
+}
   
-  .images-header-title {
+.images-header-title {
     color: white;
     font-size: 3.2rem;
-  }
+}
   
-  .images-header-title-aside {
+.images-header-title-aside {
     position: absolute;
     color: white;
     font-size: 2.2rem;
     top: 100px;
     left: 10px;
-  }
+}
   
-  .images-header-side {
+.images-header-side {
     flex: 35%;
     height: 100%;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .images-header-side1 {
+.images-header-side1 {
     margin-top: 5px;
     position: relative;
     flex: 50%;
-  }
+}
   
-  .images-header-side2 {
+.images-header-side2 {
     margin-bottom: 5px;
     margin-top: 5px;
     position: relative;
     flex: 50%;
-  }
+}
   
-  .utility-section {
+.utility-section {
     display: grid;
     margin-right: 10vw;
     margin-left: 15vw;
@@ -91,203 +91,203 @@
     grid-template-columns: 33% 33% 33%;
     column-gap: 20px;
     row-gap: 100px;
-  }
+}
   
-  .utility-images-container {
+.utility-images-container {
     text-align: left;
     position: relative;
-  }
+}
   
-  .utility-images-text {
+.utility-images-text {
     position: absolute;
     left: 10px;
     z-index: 2;
     bottom: 10px;
-  }
+}
   
-  .utility-MP {
+.utility-MP {
     color: white;
-  }
+}
   
-  .utility-title {
+.utility-title {
     color: white;
     font-size: 1.3rem;
     font-weight: bolder;
     text-decoration: none;
-  }
+}
   
-  .utility-image {
+.utility-image {
     width: 100%;
     height: 200px;
-  }
+}
   
-  .utility-image-link {
+.utility-image-link {
     text-decoration: none;
-  }
+}
   
-  .utility-latest {
+.utility-latest {
     background-color: rgba(251, 181, 116, 0.421);
     display: flex;
     flex: 4fr 1fr;
     color: #f42;
-  }
+}
   
-  .utility-latest-container {
+.utility-latest-container {
     display: flex;
     flex: 4fr 1fr;
     flex-direction: column;
     padding: 10px;
     color: #f42;
-  }
+}
   
-  .utility-LT {
+.utility-LT {
     color: #f42;
-  }
+}
   
-  .utility-LT-link {
+.utility-LT-link {
     text-decoration: none;
-  }
+}
   
-  .utility-latest-image {
+.utility-latest-image {
     float: right;
     width: 100px;
     object-fit: cover;
-  }
+}
   
-  .utility-ul {
+.utility-ul {
     color: #f42;
     list-style-position: inside;
     margin-top: 10px;
-  }
+}
   
-  .utility-ul-li {
+.utility-ul-li {
     margin-top: 5px;
     margin-bottom: 5px;
-  }
+}
   
-  .utility-ul-links {
+.utility-ul-links {
     text-decoration: none;
     color: #666;
-  }
+}
   
-  .latest-deals-section {
+.latest-deals-section {
     display: flex;
     flex-direction: column;
     flex: 1fr 5fr;
     margin-right: 15vw;
     margin-left: 15vw;
     margin-bottom: 70px;
-  }
+}
   
-  .latest-deals-aside {
+.latest-deals-aside {
     display: inline;
     float: right;
     color: #f42;
-  }
+}
   
-  .latest-deals-header {
+.latest-deals-header {
     margin-bottom: 15px;
-  }
+}
   
-  .latest-deals-body {
+.latest-deals-body {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     column-gap: 10px;
     row-gap: 20px;
-  }
+}
   
-  .deal-price-discount {
+.deal-price-discount {
     display: inline;
     margin-left: 5px;
     color: #bbb;
     font-size: 0.9rem;
     text-decoration: line-through;
-  }
+}
   
-  .deal-price {
+.deal-price {
     display: inline;
     color: #666;
     font-size: 1.1rem;
-  }
+}
   
-  .latest-deals-image {
+.latest-deals-image {
     width: 100%;
     height: 200px;
-  }
+}
   
-  footer {
+footer {
     background-color: black;
-  }
+}
   
-  .footer1 {
+.footer1 {
     background-color: #131313;
     display: flex;
     flex-direction: column;
     align-content: center;
     padding-top: 30px;
     padding-bottom: 35px;
-  }
+}
   
-  .footer-icons {
+.footer-icons {
     display: flex;
     justify-content: center;
-  }
+}
   
-  .footer-icons-buttons {
+.footer-icons-buttons {
     background-color: #444;
     border-radius: 50%;
     padding: 10px;
     margin-bottom: 20px;
     margin-right: 5px;
     border: none;
-  }
-  
-  .footer-icons-images {
+}
+
+.footer-icons-images {
     width: 14px;
     height: 14px;
     vertical-align: -3px;
-  }
-  
-  .footer-menus {
+}
+
+.footer-menus {
     color: #bbb;
     display: flex;
     justify-content: center;
     margin-right: 25vw;
     margin-left: 25vw;
     font-size: 1.1rem;
-  }
-  
-  .footer-MTs {
-    margin-right: 10px;
-  }
-  
-  .footer2 {
+}
+
+.footer-MTs {
+margin-right: 10px;
+}
+
+.footer2 {
     background-color: black;
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  .footer2-text {
+  text-align: center;
+}
+
+.footer2-text {
     display: inline;
     color: #999;
     margin-right: 10px;
     margin-left: 10px;
-  }
-  
-  .footer2-img-1 {
+}
+
+.footer2-img-1 {
     height: 20px;
     width: 35px;
     vertical-align: -5px;
-  }
-  
-  .footer2-img-2 {
+}
+
+.footer2-img-2 {
     height: 30px;
     width: 60px;
     vertical-align: -10px;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex !important;
     position: fixed;
     z-index: 300;
@@ -295,20 +295,20 @@
     top: 0;
     left: 0;
     right: 0;
-  }
-  
-  .nav {
+}
+
+.nav {
     width: 100%;
-  }
-  
-  .nav-logo {
+}
+
+.nav-logo {
     display: none;
-  }
-  
-  .nav1 {
+}
+
+.nav1 {
     overflow: hidden;
     background-color: #333;
-  
+    
     a {
       float: left;
       font-size: 16px;
@@ -317,12 +317,12 @@
       padding: 14px 16px;
       text-decoration: none;
     }
-  }
-  
-  .dropdown {
+}
+
+.dropdown {
     float: left;
     overflow: hidden;
-  
+    
     .dropbtn {
       font-size: 16px;
       border: none;
@@ -333,14 +333,14 @@
       font-family: inherit;
       margin: 0;
     }
-  }
-  
-  .nav1 .menu_right {
+}
+
+.nav1 .menu_right {
     position: absolute;
     right: 0;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: black;
@@ -356,13 +356,13 @@
       display: block;
       text-align: left;
     }
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  .nav2 {
+}
+
+.nav2 {
     background-color: white;
     border-top: 1px white;
     border-bottom: 1px white;
@@ -372,22 +372,22 @@
     text-align: left;
     white-space: normal;
     box-shadow: 7px 6px 5px rgb(179, 177, 177);
-  }
-  
-  .utility-ul > hr {
+}
+
+.utility-ul > hr {
     color: #ccc;
     border: 0.3px solid #ccc;
     border-radius: 5px;
-  }
-  
-  .nav2 a {
+}
+
+.nav2 a {
     color: gray;
     text-decoration: none;
     margin-right: 20px;
     margin-left: 5px;
-  }
-  
-  .latest-news-section {
+}
+
+.latest-news-section {
     position: relative;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
@@ -395,88 +395,89 @@
     margin-left: 7cm;
     margin-right: 7cm;
     margin-top: 20px;
-  }
-  
-  .article-description {
+}
+
+.article-description {
     font-size: 16px;
     text-align: centre;
     font-weight: bold;
-  }
-  
-  .article-news-pic {
+}
+
+.article-news-pic {
     width: 100%;
-  }
-  
-  .timeline {
+}
+
+.timeline {
     color: #999;
     font-size: 15px;
     text-align: left;
-  }
-  
-  main .heading {
+}
+
+main .heading {
     align-content: center;
     margin-left: 7cm;
-  }
-  
-  .utility-section > div > .heading, .latest-deals-section > div > .heading {
+}
+
+.utility-section > div > .heading, 
+.latest-deals-section > div > .heading {
     margin-left: 0;
-  }
-  
-  .latest-fund-pic {
+}
+
+.latest-fund-pic {
     display: grid;
     grid-template-columns: 26% 26% 26% 26%;
     column-gap: 0;
     margin-left: 7cm;
     margin-right: 7cm;
-  }
-  
-  .lines {
+}
+
+.lines {
     width: 80%;
     color: rgb(248, 109, 59);
-  }
-  
-  .funding-rounds > img {
+}
+
+.funding-rounds > img {
     width: 100%;
-  }
-  
-  .founding-round-description {
+}
+
+.founding-round-description {
     margin-left: 10px;
     font-size: 15px;
     color: slategray;
-  }
-  
-  .latest-funding-section .latest-funding-aside {
+}
+
+.latest-funding-section .latest-funding-aside {
     display: inline;
     float: right;
     margin-right: 17rem;
     font-weight: bold;
     color: orangered;
-  }
-  
-  .founding-rounds-website {
+}
+
+.founding-rounds-website {
     font-size: 15px;
     font-weight: lighter;
     text-align: justify;
     margin-right: 2cm;
-  }
-  
-  .latest-funding-aside_small {
+}
+
+.latest-funding-aside_small {
     display: none;
-  }
-  
-  .dropdown-content a:hover {
+}
+
+.dropdown-content a:hover {
     background-color: #333;
-  }
-  
-  .nav1 a:hover, .dropdown:hover .dropbtn {
+}
+
+.nav1 a:hover, .dropdown:hover .dropbtn {
     background-color: black;
-  }
-  
-  .ninja-big {
+}
+
+.ninja-big {
     display: none;
-  }
-  
-  @media (max-width: 1024px) {
+}
+
+@media (max-width: 1024px) {
     .nav-logo {
       display: inline-block;
       background-color: black;
@@ -617,9 +618,9 @@
     .ninja {
       display: none;
     }
-  }
+}
   
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .logo {
       display: unset;
       height: 7.5vw;
@@ -888,4 +889,4 @@
     .small-screen-nav-right {
       float: right;
     }
-  }
+}
