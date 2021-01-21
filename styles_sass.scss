@@ -418,7 +418,8 @@ main .heading {
   margin-left: 7cm;
 }
 
-.utility-section > div > .heading, .latest-deals-section > div > .heading {
+.utility-section > div > .heading, 
+.latest-deals-section > div > .heading {
   margin-left: 0;
 }
 
@@ -468,7 +469,8 @@ main .heading {
   background-color: #333;
 }
 
-.nav1 a:hover, .dropdown:hover .dropbtn {
+.nav1 a:hover, 
+.dropdown:hover .dropbtn {
   background-color: black;
 }
 
@@ -640,7 +642,8 @@ main .heading {
     }
   }
 
-  .nav1, .nav2 {
+  .nav1, 
+  .nav2 {
     display: none;
   }
 
@@ -797,7 +800,15 @@ main .heading {
     float: none;
   }
 
-  .utility1, .utility2, .utility3, .utility4, .utility5, .utility6, .utility7, .utility8, .utility9 {
+  .utility1,
+  .utility2,
+  .utility3,
+  .utility4,
+  .utility5,
+  .utility6,
+  .utility7,
+  .utility8,
+  .utility9 {
     font-size: 17px;
   }
 
@@ -838,7 +849,14 @@ main .heading {
     grid-area: image;
   }
 
-  .latest-deals1, .latest-deals2, .latest-deals3, .latest-deals4, .latest-deals5, .latest-deals6, .latest-deals7, .latest-deals8 {
+  .latest-deals1,
+  .latest-deals2,
+  .latest-deals3,
+  .latest-deals4,
+  .latest-deals5,
+  .latest-deals6,
+  .latest-deals7,
+  .latest-deals8 {
     display: grid;
     grid-template-columns: 19% 79%;
     grid-template-areas: "image deals-title" "image deal-price-discount" "image deal-price";

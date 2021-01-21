@@ -484,7 +484,8 @@ main .heading {
   margin-left: 7cm;
 }
 
-.utility-section > div > .heading, .latest-deals-section > div > .heading {
+.utility-section > div > .heading,
+.latest-deals-section > div > .heading {
   margin-left: 0;
 }
 
@@ -537,7 +538,8 @@ main .heading {
   background-color: #333;
 }
 
-.nav1 a:hover, .dropdown:hover .dropbtn {
+.nav1 a:hover,
+.dropdown:hover .dropbtn {
   background-color: black;
 }
 
@@ -702,7 +704,8 @@ main .heading {
   .alternate_nav:nth-of-type(1) {
     color: orangered;
   }
-  .nav1, .nav2 {
+  .nav1,
+  .nav2 {
     display: none;
   }
   .images-header {
@@ -855,7 +858,15 @@ main .heading {
   .utility-image-link > p {
     float: none;
   }
-  .utility1, .utility2, .utility3, .utility4, .utility5, .utility6, .utility7, .utility8, .utility9 {
+  .utility1,
+  .utility2,
+  .utility3,
+  .utility4,
+  .utility5,
+  .utility6,
+  .utility7,
+  .utility8,
+  .utility9 {
     font-size: 17px;
   }
   .utility-ul-links {
@@ -897,7 +908,14 @@ main .heading {
     -ms-grid-column: 1;
     grid-area: image;
   }
-  .latest-deals1, .latest-deals2, .latest-deals3, .latest-deals4, .latest-deals5, .latest-deals6, .latest-deals7, .latest-deals8 {
+  .latest-deals1,
+  .latest-deals2,
+  .latest-deals3,
+  .latest-deals4,
+  .latest-deals5,
+  .latest-deals6,
+  .latest-deals7,
+  .latest-deals8 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 19% 79%;
