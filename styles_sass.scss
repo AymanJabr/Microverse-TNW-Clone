@@ -32,10 +32,10 @@
 .images-header-image-text {
   position: absolute;
   top: 10px;
-}
 
-.images-header-image-text > a {
-  text-decoration: none;
+  > a {
+    text-decoration: none;
+  }
 }
 
 .images-header-logo {
@@ -308,31 +308,31 @@ nav {
 .nav1 {
   overflow: hidden;
   background-color: #333;
-}
 
-.nav1 a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
-}
 
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+  .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
 }
 
 .nav1 .menu_right {
@@ -347,15 +347,15 @@ nav {
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
 
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 11px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+  a {
+    float: none;
+    color: white;
+    padding: 12px 11px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 .dropdown:hover .dropdown-content {
@@ -418,10 +418,7 @@ main .heading {
   margin-left: 7cm;
 }
 
-.utility-section > div > .heading {
-  margin-left: 0;
-}
-
+.utility-section > div > .heading,
 .latest-deals-section > div > .heading {
   margin-left: 0;
 }
@@ -639,16 +636,13 @@ main .heading {
     top: 0;
     color: grey;
     margin-right: 4vw;
+
+    &:nth-of-type(1) {
+      color: orangered;
+    }
   }
 
-  .alternate_nav:nth-of-type(1) {
-    color: orangered;
-  }
-
-  .nav1 {
-    display: none;
-  }
-
+  .nav1,
   .nav2 {
     display: none;
   }
@@ -743,17 +737,15 @@ main .heading {
 
   .article {
     display: grid;
-    grid-template-areas:
-      "pic title"
-      "pic timeline";
+    grid-template-areas: "pic title" "pic timeline";
     grid-template-columns: 10% 90%;
     column-gap: 10px;
     margin-left: 1vw;
     margin-right: 1vw;
-  }
 
-  .article > a {
-    grid-area: pic;
+    > a {
+      grid-area: pic;
+    }
   }
 
   .latest-news-pic {
@@ -788,16 +780,7 @@ main .heading {
     margin-right: 1vw;
     margin-left: 1vw;
     grid-template-columns: 100%;
-    grid-template-areas:
-      "utility1"
-      "utility2"
-      "utility3"
-      "utility4"
-      "utility5"
-      "utility6"
-      "utility7"
-      "utility8"
-      "utility9";
+    grid-template-areas: "utility1" "utility2" "utility3" "utility4" "utility5" "utility6" "utility7" "utility8" "utility9";
     row-gap: 20px;
   }
 
@@ -837,15 +820,7 @@ main .heading {
 
   .latest-deals-body {
     display: grid;
-    grid-template-areas:
-      "deal1"
-      "deal2"
-      "deal3"
-      "deal4"
-      "deal5"
-      "deal6"
-      "deal7"
-      "deal8";
+    grid-template-areas: "deal1" "deal2" "deal3" "deal4" "deal5" "deal6" "deal7" "deal8";
     grid-template-columns: 100%;
     row-gap: 10px;
   }
@@ -884,10 +859,7 @@ main .heading {
   .latest-deals8 {
     display: grid;
     grid-template-columns: 19% 79%;
-    grid-template-areas:
-      "image deals-title"
-      "image deal-price-discount"
-      "image deal-price";
+    grid-template-areas: "image deals-title" "image deal-price-discount" "image deal-price";
     column-gap: 2vw;
   }
 
